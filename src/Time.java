@@ -70,4 +70,18 @@ public class Time {
         return mediaNotas;
     }
 
+    public void listarAlunos(){
+        System.out.println("Estes são os alunos do time: ");
+        for (Aluno aluno : alunos) {
+            System.out.println(aluno.getNome());
+        }
+    }
+
+    public void listarNotas(){
+        System.out.println("Estas são as notas do time: ");
+        for (Double nota : notas) {
+            System.out.println(nota);
+        }
+    }
+
 }
