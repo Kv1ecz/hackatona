@@ -71,7 +71,7 @@ public class Time {
     }
 
     public void listarAlunos(){
-        System.out.println("Estes são os alunos do time: ");
+        System.out.println("Alunos do time "+this.getNome());
         for (Aluno aluno : alunos) {
             System.out.println(aluno.getNome());
         }

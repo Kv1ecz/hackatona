@@ -8,4 +8,8 @@ public class Avaliador {
     public void avaliarTime(Time time, Double nota){
         time.adicionaNota(nota);
     }
+
+    public String getNome() {
+        return nome;
+    }
 }
